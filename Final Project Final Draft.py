@@ -27,6 +27,8 @@ def question_computer(number,character,potential):
         user_answer=input("Is your character part of the 5 interns?")
     if number==4:
         user_answer=input("Is your character still on the show")
+    while user_answer!="y" and user_answer!="n":
+        user_answer=input("Please enter valid reponse (y/n)")
 
 
 
